@@ -1,0 +1,156 @@
+/*define vars */
+:root {
+    --darkmoodle-black: #242424;
+    --darkmoodle-bright-black: #2e2e2e;
+    --darkmoodle-brighter-bright-black: #3a3a3a;
+    --darkmoodle-alert: #77888b;
+    --darkmoodle-success: #768976;
+    --darkmoodle-yellow: #b0a971;
+    --darkmoodle-red: #a35b6a;
+}
+
+
+.auth-main-col, .card, .coursemenubtn, .block_myoverview, .logo-section, .section-inner, .search-section, .page-wrapper, section .course-section {
+    background: var(--darkmoodle-black) !important;
+}
+
+.cta-section, .dashboard-card, .more-nav,.message-app,.navbar, .top-bar > .container-fluid,  .form-control, .card-footer, .card-body, .page-link, .custom-select, .user-report-container, .user-grade, .dashboard-card-footer, .btn-secondary, .drawerheader, .drawercontent, .dashboard-card-footer.dropdown, .dropdown-menu {
+    background: var(--darkmoodle-bright-black) !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd),.list-group-item, table.collection tbody tr:nth-of-type(odd), table#explaincaps tbody tr:nth-of-type(odd), table#defineroletable tbody tr:nth-of-type(odd), table.grading-report tbody tr:nth-of-type(odd), table#listdirectories tbody tr:nth-of-type(odd), table.rolecaps tbody tr:nth-of-type(odd), table.userenrolment tbody tr:nth-of-type(odd), form#movecourses table tbody tr:nth-of-type(odd), #page-admin-course-index .editcourse tbody tr:nth-of-type(odd), .forumheaderlist tbody tr:nth-of-type(odd), table.flexible tbody tr:nth-of-type(odd), .generaltable tbody tr:nth-of-type(odd) {
+    background: var(--darkmoodle-bright-black) !important;
+}
+
+*:not(.btn-primary):not(input):not(#message-drawer-toggle-6528255da28466528255da09802), .item-title .text_to_html, .coursemenubtn, .form-control {
+    color: white !important;
+
+}
+
+
+.table-hover tbody tr:hover, table.grading-report tbody tr:hover, .forumheaderlist tbody tr:hover, .generaltable tbody tr:hover, table.flexible tbody tr:hover, .category_subcategories tbody tr:hover, table#modules tbody tr:hover, table#permissions tbody tr:hover {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+
+/*button text color*/
+a.btn-secondary, .btn-secondary, input.btn-secondary, a.btn-default, .btn-default {
+    color: white !important;
+}
+
+/*dans la catégorie notes le header de la table*/
+.path-grade-report-user .user-grade thead th, .grade-report-user .user-grade thead th {
+    background: var(--darkmoodle-bright-black) !important;
+}
+
+/*dans la catégorie notes dans la table le nom de la promo */
+.path-grade-report-user .user-grade td.category, .grade-report-user .user-grade td.category {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*dans la catégorie notes le contenu de la table*/
+.path-grade-report-user .user-grade td, .grade-report-user .user-grade td {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*couleur verte dégueue*/
+.alert-info, .media {
+    background: var(--darkmoodle-alert) !important;
+}
+
+/*barre random dans un cours*/
+.description .course-description-item {
+    background: var(--darkmoodle-black) !important;
+}
+
+/*poignée pour le menu de gauche dans un cours ou autre*/
+.drawer-toggles .drawer-toggler .btn {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*bg transparent des titre par dessus les images*/
+
+.page-context-header {
+    background: none !important;
+}
+
+/*resulat d'une recherche*/
+.courses.course-search-result.course-search-result-search {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*cards du resultat*/
+.style-cards .course-item-inner {
+    background: var(--darkmoodle-bright-black) !important;
+}
+
+/*index cours*/
+#page-course-index-category .course_category_tree {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*barre au dessus des rendus moodle*/
+.path-mod .activity-header:not(:empty) {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*Popup pour rendre un fichier*/
+.moodle-dialogue-base .moodle-dialogue-wrap {
+    background: var(--darkmoodle-bright-black) !important;
+}
+
+/*hover sur les boutons de la popup*/
+.nav-pills .nav-link:hover {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*nom du fichier uploadé*/
+.fp-iconview .fp-filename-field .fp-filename {
+    background: none !important;
+}
+
+/*texte de validation de l'upload*/
+.path-mod-assign td.submissionstatussubmitted, .path-mod-assign div.submissionstatussubmitted, .path-mod-assign a:link.submissionstatussubmitted {
+    background: var(--darkmoodle-success) !important;
+}
+
+/*temps restant de l'upload*/
+.path-mod-assign td.earlysubmission, .path-mod-assign div.earlysubmission{
+    background: var(--darkmoodle-success) !important;
+}
+
+/*bouton acceder a ma session de l'acceuil moodle*/
+.hero-slider-wrapper .hero-carousel .slide-item-btn.slide-item-btn-1 {
+    background: var(--darkmoodle-black) !important;
+}
+.hero-slider-wrapper .hero-carousel .slide-item-btn:hover {
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*ressources générale jaune dans ma session*/
+#coursecontentcollapse0 > div > div.course-description-item.summarytext > div > div > div > div:nth-child(1) > div{
+    background: var(--darkmoodle-yellow) !important;
+}
+
+/*ressources générale rouge dans ma session*/
+#coursecontentcollapse0 > div > div.course-description-item.summarytext > div > div > div > div:nth-child(2) > div{
+    background: var(--darkmoodle-red) !important;
+}
+
+/*active tab dans ma session*/
+.moremenu .nav-tabs .nav-link.active{
+    background: var(--darkmoodle-brighter-bright-black) !important;
+}
+
+/*bg de l'icone user*/
+.userinitials{
+    background: var(--darkmoodle-yellow) !important;);
+}
+
+/*.action-menu .dropdown-toggle {*/
+/*    color: white !important;*/
+/*}*/
+
+/*.oauth-title {*/
+/*    color: white !important;*/
+/*}*/
